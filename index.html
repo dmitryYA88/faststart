@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>FastStart</title>
+</head>
+<body>
+
+  <div class="preloader"></div>
+
+  <div class="darkblock" id ="Up">
+    <div class="darkblock__wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7">
+            <div class="logo anim-atems">
+              <a href="#"><img class="logotip" src="images/logo.png" alt="Логотип"></a>
+            </div>
+            <h1 class="animate anim-atems">Разработка сайтов любой сложности</h1>
+            <div class="darkblock__text">
+              <p class="anim-atems">
+                FastStart - команда опытных профессионалов по реализации задач любой сложности в области web-разработки и программирования. В кратчайшие сроки мы реализуем все ваши идеи и мысли и дадим мощный толчок вашему бизнесу!
+              </p>
+            </div>
+            <div class="buttons__block animate anim-atems">
+              <a class="btnn btn-aboutUs" href ="#">О нас</a> 
+              <a class="btnn btn-price" href ="#">Стоимость</a> 
+            </div>
+          </div>     
+          <div class="col-md-5">
+            <div class="contact-me anim-atems">
+              <h3>СВЯЖИТЕСЬ СО МНОЙ</h3>                
+              <form id="formElem"  class="darkblock__form" method="post">
+                <div class="d-grid gap-2 paddins_bott">
+                  <input class="form-control input-lg" name="name" type="text" placeholder="Мое имя"> 
+                </div>
+                <div class="d-grid gap-2 paddins_bott">
+                  <input class="form-control input-lg" name="email" type="email" placeholder="Мой e-mail"> 
+                </div>
+                <div class="d-grid gap-2 paddins_bott">
+                  <button type="submit" name="submit" class="btn btn-primary">ОТПРАВИТЬ ЗАПРОС</button>
+                </div>
+                <div class="d-grid gap-2 text-center">
+                  <p class="form-text"> 
+                    Нажимая кнопку "ОТПРАВИТЬ ЗАПРОС" Вы даете согласие на обработку личных данных в соотстветствии правилами политики конфиденциальности.
+                  </p>
+                </div>
+              </form>
+            </div>  
+          </div>
+        </div>
+      </div>
+    </div>  
+  </div>
+  
+  <div class="menu sticky bg-light">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light  ">
+        <div class="container-fluid">
+          <div>
+          <a class="navbar-brand" href="#"><img class="logotip" src="images/logo2.png" alt="Логотип2"></a>
+          </div>  
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 150px;">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#aboutUs">О нас</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#benefits">Преимущества</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#order">Как заказать</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#price">Стоимость</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#reviews">Отзывы</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacts">Контакты</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+  
+  <div class="main-task" id="aboutUs">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 main-task__picture animate anim-atems">
+          <img src="images/intro-image.jpg" class="img-fluid" alt="Картинка">
+        </div>
+        <div class="col-md-6 anim__content anim-atems">
+          <h2>Наша главная задача - сделать ваш бизнес в интернете уникальным.</h2>
+          <p>
+            Для нас нет сложных задач. Мы разрабатываем не просто интернет-ресурсы для бизнеса, а создаем уникальные
+            сайты и порталы, которые максимально удовлетворяют потребности любого, даже самого требовательного, пользователя.
+          </p>
+          <div class="buttons__block">
+            <a class="btnn btn-more" href ="#">Подробнее</a>
+          </div>  
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+  <div id="benefits">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 text-center">
+          <div class="benefits__title">
+            <h2>Превращаем самые невероятные идеи в реальность</h2>
+            <p>Если вы еще не знаете чего хотите, то мы придумаем все за вас!</p>
+          </div>  
+        </div>
+      </div>
+      <div class="row row-benefits">
+        <div class="col-md-4">
+          <div class="benefits__block animate anim-atems">
+            <img class="benefits__block__img" src="images/feature-image.jpg" alt="Картинка">
+          </div>  
+        </div>
+        <div class="col-md-8">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="benefits__box">
+                <img class="icon-anim anim-atems" src="icons2/book_icon.png" alt="картинка">
+                <div class ="benefits__content">
+                  <h4>Уникальный подход</h4>
+                  <p>
+                    Мы подходим к идеям разработки с самых необычных сторон, что позволяет удивлять будущих пользователей.
+                  </p>
+                </div>
+              </div>  
+            </div>
+            <div class="col-md-6">
+              <div class="benefits__box">
+                <img class="icon-anim anim-atems" src="icons2/cash_icon.png" alt="картинка">
+                <div class ="benefits__content">
+                  <h4>Монетизация</h4>
+                  <p>
+                    Правильный дизайн быстро приводит потенциальных клиентов к покупке, поэтому наша команда уделяет этому самую важную роль.
+                  </p>
+                </div>  
+              </div>  
+            </div>  
+          </div>    
+          <div class="row">
+            <div class="col-md-6">
+              <div class="benefits__box">
+                <img class="icon-anim2 anim-atems"  src="icons2/lamp_light_icon.png" alt="картинка">
+                <div class ="benefits__content">
+                  <h4>Повышение функционала</h4>
+                  <p>
+                    Разработанные нами проекты всегда готовы к дополнительным расширеням функционала. За счет гибкости разработки, мы в кратчайшие добавим новые модули и решения.
+                  </p>
+                </div>  
+              </div>  
+            </div>
+            <div class="col-md-6">
+              <div class="benefits__box">
+                <img class="icon-anim2 anim-atems" src="icons2/optimization_o_icon.png" alt="картинка">
+                <div class ="benefits__content">
+                  <h4>Оптимизация процессов</h4>
+                  <p>
+                    Весь оборот и отчетность по клиентам будут доступны в специальной системе userBox, которая разработана нашей командой для оптимизации процессов работы с клиентами.
+                  </p>
+                </div>  
+              </div>  
+            </div>  
+          </div>
+        </div>  
+      </div>  
+    </div>
+  </div>  
+  
+  <div id="terms">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 animate anim-atems">
+          <h2>Качественный сайт в разумные сроки</h2>
+          <p>
+            За счёт оптимизации внутренних процессов, многие работы по разработке сайта выполняются параллельно.
+						Это позволяет нам сократить время выкладки сайта, не увеличивая при этом итоговую цену.
+          </p>
+          <p>
+            Стоимость разработки сайта считается исходя из необходимого функционала и трудозатрат. При ограниченном бюджете есть возможность упростить некоторые этапы или изменить перечень функционала. Стоимость создания проекта начинается от 15 000 руб.
+          </p>
+          <div class="buttons__block">
+            <a class="btnn btn-more" href ="#price">Узнать стоимость</a>
+          </div>  
+        </div>
+        <div class="col-md-6 terms__picture anim__content anim-atems">
+          <img src="images/feature2-image.jpg" class="img-fluid" alt="Картинка">
+        </div>
+      </div>
+    </div>
+  </div>  
+  
+  <div class="darkblock" id="order">
+    <div class="darkblock__wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 text-center">
+            <h2 class="connection anim__content anim-atems">Хотите узнать, как развить свой бизнес?</h2>
+            <div class="animate anim-atems">
+              <p>Свяжитесь с нами и мы расскажем о том, что подойдет именно для вашего бизнеса и какие инструменты мы будем использовать.</p>
+            <div class="buttons__block connect">
+              <a class="btn-connection btn btn-primary" href ="#">Связаться с нами</a>
+            </div>
+            </div>             
+          </div>
+        </div>
+      </div>
+    </div>      
+  </div>
+  
+  <div id="price">
+    <div class="container">
+      <div class="text-center">
+        <h2 class="animate anim-atems">Стоимость</h2>
+        <div class="line anim__content anim-atems"></div>
+      </div> 
+      <div class="row text-center top">
+        <div class="col-lg-3">
+          <div class="price__block up__anim1 anim-atems">
+            <div class="price__icon__block">
+              <img src="icons/landing_page_icon.png" alt="картинка">
+            </div>  
+            <h4>Сайт-визитка</h4>
+            <p class="price__item">15</p>
+            <ul>
+              <li>
+                <strong>1</strong> страница
+              </li>
+              <li>
+                <strong>Эксклюзивный</strong> дизайн
+              </li>
+              <li>
+                <strong>Адаптивная</strong> верстка
+              </li>
+              <li>
+                <strong>Внутренняя</strong> оптимизация
+              </li>
+              <li class="through">
+                Платформа userBox
+              </li>
+            </ul>
+            <div class="buttons__block">
+              <a class="btn-order btn btn-primary" href ="#">ЗАКАЗАТЬ</a>
+            </div>
+          </div>  
+        </div>
+        <div class="col-lg-3">
+          <div class="price__block up__anim2 anim-atems">
+            <div class="price__icon__block">
+              <img src="icons/control_device_game_icon.png" alt="картинка">
+            </div>  
+            <h4>Сайт компании</h4>
+            <p class="price__item">40</p>
+            <ul>
+              <li>
+                до <strong>10</strong> страниц
+              </li>
+              <li>
+                <strong>Эксклюзивный</strong> дизайн
+              </li>
+              <li>
+                <strong>Адаптивная</strong> верстка
+              </li>
+              <li>
+                <strong>Внутренняя</strong> оптимизация
+              </li>
+              <li class="through">
+                Платформа userBox
+              </li>
+            </ul>
+            <div class="buttons__block">
+              <a class="btn-order btn btn-primary" href ="#">ЗАКАЗАТЬ</a>
+            </div>
+          </div>  
+        </div>
+        <div class="col-lg-3">
+          <div class="price__block up__anim3 anim-atems">
+            <div class="price__icon__block">
+              <img src="icons/bag_buy_icon.png" alt="картинка">
+            </div>  
+            <h4>Магазин</h4>
+            <p class="price__item">220</p>
+            <ul>
+              <li>
+                <strong>Эксклюзивный</strong> дизайн
+              </li>
+              <li>
+                <strong>Адаптивная</strong> верстка
+              </li>
+              <li>
+                <strong>Внутренняя</strong> оптимизация
+              </li>
+              <li>
+                <strong>Маркетинг</strong> решения
+              </li>
+              <li>
+                Платформа <strong>userBox</strong>
+              </li>
+            </ul>
+            <div class="buttons__block">
+              <a class="btn-order btn btn-primary" href ="#">ЗАКАЗАТЬ</a>
+            </div>
+          </div>  
+        </div>
+        <div class="col-lg-3">
+          <div class="price__block up__anim4 anim-atems">
+            <div class="price__icon__block">
+              <img src="icons/internet_service_icon.png" alt="картинка">
+            </div>  
+            <h4>Интернет-портал</h4>
+            <p class="price__item">500</p>
+            <ul>
+              <li>
+                <strong>Эксклюзивный</strong> дизайн
+              </li>
+              <li>
+                <strong>Адаптивная</strong> верстка
+              </li>
+              <li>
+                <strong>Внутренняя</strong> оптимизация
+              </li>
+              <li>
+                <strong>Маркетинг</strong> решения
+              </li>
+              <li>
+                Платформа <strong>userBox</strong>
+              </li>
+            </ul>
+            <div class="buttons__block">
+              <a class="btn-order btn btn-primary" href ="#">ЗАКАЗАТЬ</a>
+            </div>
+          </div>  
+        </div>
+      
+      </div> 
+    </div>
+  </div>
+ 
+  <div id="clients">
+    <div class="container">
+      <div class="text-center">
+        <h2 class="animate anim-atems">Наши клиенты</h2>
+        <div class="line anim__content anim-atems"></div>
+      </div> 
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <img class="clients__img up__anim1 anim-atems" src="images/finnair.png" alt="Клиент">
+          <img class="clients__img up__anim2 anim-atems" src="images/event.png" alt="Клиент">
+          <img class="clients__img up__anim3 anim-atems" src="images/Letidor.png" alt="Клиент">
+          <img class="clients__img up__anim4 anim-atems" src="images/viking.png" alt="Клиент">
+        </div>
+      </div> 
+    </div>     
+  </div>
+
+  <div id="reviews">
+    <div class="container top">
+      <div class="text-center">
+        <h2 class="animate anim-atems">Отзывы</h2>
+        <div class="line anim__content anim-atems"></div>
+      </div> 
+      <div class="row reviews-animate anim-atems">
+        <div class="col-md-10 text-center ">
+          <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <div class="carousel-caption d-md-block">
+                  <img src="images/baklanov.jpg" alt="Фото">
+                  <p>
+                    ”Выражаем благодарность компании за работу над улучшением нашего сайта finnair.com Я высоко оцениваю качество выполненных работ по анализу потребностей пользователей и проектированию интерфейса новой системы личных сообщений. Считаю необходимым отдельно упомянуть ответственность по отношению к срокам выполнения поставленных задач и неукоснительное следование целям заказчика.”
+                  </p>
+                  <p><span class="FIO">Илья Бакланов</span>, <span class="company">Finnair</span></p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <div class="carousel-caption d-md-block">
+                  <img src="images/starik.jpg" alt="">
+                  <p>
+                    ”С начала нашего сотрудничества чувствуется ответственное отношение менеджера к нашему проекту. В процессе своей деятельности специалисты компании подтвердили свой высокий профессиональный статус и оперативность в решении проблем. Нам отвечали своевременно на все возникающие вопросы, предоставляли консультации и рекомендации относительно нашего сайта. Чувствуется, что в данной компании работают настоящие профессионалы своего дела.”
+                  </p>
+                  <p><span class="FIO">Анна Старик</span>, <span class="company">Eventworld</span></p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="carousel-caption d-md-block">
+                  <img src="images/vorobiov.jpg" alt="">
+                  <p>
+                    “Был проведен комплексный анализ портала в плоскостях юзабилити и SEO, по результатам которого предоставлен развернутый экспертный отчет с рекомендациями по оптимизации визуальной и текстовой составляющих. Итоговые материалы были достойно оформлены и написаны доступным и понятным языком. Полученный документ лег в основу измененной концепции работы над сайтом "Viking Line"”
+                  </p>
+                  <p><span class="FIO">Денис Воробьев</span>, <span class="company">Viking Line</span></p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active indicator" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" class="indicator" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" class="indicator" aria-label="Slide 3"></button>
+            </div>
+          </div>
+        </div>  
+      </div>
+    </div>     
+  </div>
+  <div class="darkblock" id="contacts">
+    <div class="darkblock__wrapper">
+      <div class="container">
+        <div class="row darkblock__lower  anim-atems">
+          <div class="col-md-5">
+            <h2><span class="color-blue">Свяжитесь</span> с нами</h2>
+            <ul class="contacts">
+              <li class="flex-box">
+                <img src="icons/geo_location_map__icon.png" alt="map">
+                <div>
+                  Большая Спасская ул. 12<br>
+                  Москва, Россия
+                </div>
+              </li>
+              <li>
+                <img src="icons/call_telephone_icon.png" alt="phone">
+                8(495)626-46-00
+              </li>
+              <li>
+                <img src="icons/email_@icon.png" alt="e-maile">
+                <a class="color-blue" href="#">moscow@faststart.ru</a>
+              </li>
+              <li>
+                <img src="icons/eye_icon.png" alt="icon">
+                <a class="color-blue" href="#">www.faststart.ru</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-7">
+            <div>             
+              <form class="darkblock__form" method="post">
+                <div class="d-grid gap-2 paddins_bott">
+                  <input class="form-control input-lg" type="text" placeholder="Ваше имя"> 
+                </div>
+                <div class="d-grid gap-2 paddins_bott">
+                  <input class="form-control input-lg" type="text" placeholder="Ваш e-mail"> 
+                </div>
+                <div class="d-grid gap-2 paddins_bott">
+                  <textarea placeholder="Я хочу..." cols="30" rows="5">
+                  </textarea>
+                </div>
+                <div class="d-grid gap-2 paddins_bott">
+                  <button type="button" class="btn btn-primary btn">ОТПРАВИТЬ ЗАПРОС</button>
+                </div>
+              </form>
+            </div>  
+          </div>
+        </div>
+      </div>
+    </div>  
+  </div>
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center social">
+          <a href="https://twitter.com/?lang=ru">
+            <img class="up__anim1 anim-atems" src="icons/twitter_2.png" alt="Твиттер">
+          </a>
+          <a href="https://facebook.com/">
+            <img class="up__anim2 anim-atems" src="icons/3057625_facebook_media_network_social_icon.png" alt="Фейсбук">
+          </a>
+          <a href="https://accounts.google.com/">
+            <img class="up__anim3 anim-atems" src="icons/google_1.png" alt="Гугл">
+          </a>
+          <a href="https://www.instagram.com/">
+            <img class="up__anim4 anim-atems" src="icons/instagram.png" alt="Инстаграм">
+          </a>
+        </div>
+      </div>    
+    </div>
+    <a class="arrow" href="#Up">
+      <img src="icons2/up_icon.png" alt="UP">
+    </a>
+  </footer>
+  <script src="js/script.js"></script>
+  
+
+</body>
+</html>
